@@ -28,6 +28,3 @@ if (process.env.NODE_ENV !== "production") {
     console.log(`Server running on http://localhost:${PORT}`);
   });
 }
-
-import serverless from "serverless-http";
-export const handler = serverless(app);
